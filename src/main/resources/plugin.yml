@@ -1,0 +1,12 @@
+name: CrystalClear
+version: '${version}'
+main: dev.heypr.crystalclear.CrystalClear
+author: heypr/hyper
+api-version: '1.19'
+commands:
+  togglecrystals:
+    description: Toggles crystals.
+    usage: /togglecrystals
+    permission: crystalclear.toggle
+    aliases:
+      - tcs
